@@ -62,7 +62,7 @@ Utilizing a pristine copy of the input map for computations while employing a se
 These takeaways stress the importance of double-checking the small stuff, knowing how libraries handle things, and keeping your data tidy for better code performance.
 
 
-## Appendix
+## Notes
 
-Any additional information goes here
+This work was done as a coursework part of the CSE 568 course at University at Buffalo. The source code is not available publicly to avoid academic integrity violations. Please feel free to contact the author if you wish access to the source code.
 
