@@ -76,6 +76,8 @@ flowchart TD;
                                 tracking back parent nodes
                                 from the goal to the start"]
 
+style goal fill:#b7e1cd,stroke:#333,stroke-width:2px;
+style goal stroke:#000,stroke-width:2px,color:#000;
 
 
 ```
