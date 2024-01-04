@@ -1,6 +1,8 @@
 
 # RRT 
 
+## Introduction
+
 The Rapidly-exploring Random Tree (RRT) algorithm is a path planning and motion planning technique primarily used in robotics. It operates by iteratively building a tree structure in the configuration space of a robot or an agent, gradually exploring the search space towards a predefined goal.
 
 RRT is particularly effective in high-dimensional and complex configuration spaces and is known for its probabilistic completeness, meaning it will find a solution if one exists given enough iterations.
@@ -124,5 +126,5 @@ These takeaways stress the importance of double-checking the small stuff, knowin
 
 ## Notes
 
-This work was done as a coursework part of the CSE 568 course at University at Buffalo. The source code is not available publicly to avoid academic integrity violations. Please feel free to contact the author if you wish access to the source code.
+This was done as a part of the coursework of CSE 568 at the University at Buffalo. The source code is not available publicly to avoid academic integrity violations. Please feel free to contact the author if you wish access to the source code.
 
