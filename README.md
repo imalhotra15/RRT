@@ -72,9 +72,12 @@ flowchart TD;
                                     nodes.append(goal)"]
     update2 --> goal("goalFound = True")
     goal --> loop_start
-    loop_start -- Yes --> path["Get path by recursively
-                                tracking back parent nodes
-                                from the goal to the start"]
+    loop_start -- Yes --> path["Get Path"]
+
+    path --> J{Start reached?}
+    J -- No --> K[Backtrack & Insert into path]
+    K --> J
+    J -- Yes --> L(Return Path)
 
 style goal fill:#b7e1cd,stroke:#333,stroke-width:2px;
 style goal stroke:#000,stroke-width:2px,color:#000;
